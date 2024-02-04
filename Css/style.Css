@@ -203,7 +203,7 @@ h6 {
 }
 .main {
   background-color: rgb(30, 36, 43);
-  /* border: 3px solid red; */
+
   padding: 100px;
 }
 
@@ -248,10 +248,136 @@ h6 {
   margin-top: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
+  .btn-faq {
+    width: 80%;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .div1 {
+    margin-bottom: 20px;
+  }
+  .h-500 {
+    width: 100%;
+  }
+  .extra {
+    display: none;
+  }
+  .bottom {
+    margin-bottom: 20px;
+  }
+  .footer {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 768px) {
   .btn-val,
   .btn-custom,
   .btn-faq {
-      width: 100%;
+    width: 50%;
+  }
+
+  .navbar-brand img {
+    width: 80%;
+    align-items: center;
+  }
+  .btn-custom {
+    margin-top: 10px;
+    padding: 1px;
+  }
+  .navhead {
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .header {
+    padding-top: 50px;
+  }
+  .footer img {
+    width: 50%;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .div1 {
+    margin-bottom: 20px;
+  }
+
+  .dec1 img,
+  .dec2 img {
+    max-width: 400px;
+    height: 50vh;
+    margin-top: 20px;
+  }
+  .mytab {
+    flex-direction: column;
+  }
+
+  .mytab img {
+    align-items: center;
+    width: 400px;
+    height: 20vh;
+  }
+  .h-500 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .btn-val,
+  .btn-faq {
+    width: 100%;
+    font-size: 10px;
+  }
+  .dec1 h1,
+  .dec2 h1 {
+    font-size: 10px;
+  }
+
+  .navbar-brand img {
+    width: 80%;
+  }
+  .btn-custom {
+    margin-top: 10px;
+    padding: 1px;
+  }
+  .navhead {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .header {
+    padding-top: 100px;
+  }
+
+  .footer img {
+    width: 30%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+  .dec1 img,
+  .dec2 img {
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+  }
+  .mytab {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .mytab img {
+    width: 200px;
+    height: 20vh;
+    margin: auto;
+  }
+  .h-500 {
+    width: 100%;
+    font-size: 10px;
   }
 }
