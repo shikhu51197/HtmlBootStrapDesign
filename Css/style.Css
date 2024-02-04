@@ -1,0 +1,257 @@
+body {
+  font-family: "DM Serif Display", serif;
+  font-family: Arial, sans-serif;
+  background-color: rgb(30, 36, 43);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+}
+.header {
+  height: 70vh;
+  width: 100%;
+  background-color: rgb(30, 36, 43);
+}
+.headerh1 {
+  background-color: #dca932;
+  color: black;
+  width: fit-content;
+  text-align: center;
+}
+.navhead {
+  color: #dca932;
+  margin-left: 20px;
+}
+.h-200 {
+  background-color: black;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+}
+.valdiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btn-val {
+  border-radius: 20px !important;
+  padding: 15px !important;
+  background-color: #dca932;
+  margin: auto;
+  font-family: "DM Serif Display", serif;
+  font-weight: 200;
+  font-size: 25px;
+  width: 500px;
+  color: black;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-val:hover {
+  color: white;
+}
+
+.btn-custom {
+  border-radius: 50px !important;
+  padding: 10px !important;
+  background-color: #dca932;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  width: 200px;
+  color: black;
+}
+.btn-custom:hover {
+  color: white;
+}
+.mytab {
+  width: 80%;
+  padding: 50px;
+  margin: auto;
+  justify-content: space-between;
+}
+.group {
+  background-color: rgb(30, 36, 43);
+}
+.h-400 {
+  padding: 50px;
+  width: 50%;
+  text-align: center;
+}
+.h-500 {
+  color: #dca932;
+  padding: 80px;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+.footerlink {
+  background-color: rgb(30, 36, 43);
+  color: #dca932;
+  width: fit-content;
+  text-align: center;
+  border-radius: 50px !important;
+  font-family: "DM Serif Display", serif;
+  height: 230px;
+  padding: 20px;
+  font-size: 20px;
+  margin: auto;
+}
+.footer {
+  padding: 30px;
+}
+.icon {
+  display: flex;
+  margin: auto;
+  gap: 40px;
+  font-size: 30px;
+  width: fit-content;
+}
+
+.message {
+  background-color: rgb(30, 36, 43);
+  color: #dca932;
+}
+
+.msg {
+  font-size: 50px;
+  padding: 40px;
+}
+.bottom {
+  background-color: #dca932;
+  height: 50vh;
+}
+.card-body {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 10px !important;
+}
+.h-300 {
+  background-color: #dca932;
+  font-family: "DM Serif Display", serif;
+}
+.h-10 {
+  margin-top: 20px;
+}
+.faqdiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 30px;
+}
+
+.btn-faq {
+  border-radius: 20px !important;
+  padding: 15px !important;
+  background-color: #dca932;
+  margin: auto;
+  font-family: "DM Serif Display", serif;
+  font-weight: 200;
+  font-size: 25px;
+  width: 1200px;
+  color: black;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-faq p {
+  margin-left: auto;
+}
+
+.btn-faq:hover {
+  color: white;
+}
+
+.faq {
+  background-color: rgb(30, 36, 43);
+  padding: 80px;
+}
+
+.head {
+  text-align: center;
+  color: #dca932;
+  padding: 30px;
+}
+.footer {
+  background-color: #dca932;
+  width: 100%;
+}
+.extra {
+  color: white;
+  height: 150px;
+}
+.ques {
+  font-family: "DM Serif Display", serif;
+}
+.main {
+  background-color: rgb(30, 36, 43);
+  /* border: 3px solid red; */
+  padding: 100px;
+}
+
+.dec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dca932;
+  background-color: #dca932;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+.dec2 img {
+  max-width: 600px;
+  height: 70vh;
+  margin-top: 20px;
+}
+
+.dec2 h1 {
+  margin-top: 20px;
+}
+
+.dec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dca932;
+  background-color: #dca932;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.dec1 img {
+  max-width: 600px;
+  height: 70vh;
+  margin-top: 20px;
+}
+
+.dec1 h1 {
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .btn-val,
+  .btn-custom,
+  .btn-faq {
+      width: 100%;
+  }
+}
